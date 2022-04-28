@@ -1,0 +1,64 @@
+.header-class{
+    height: 4.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+// background-color: teal;
+display: flex;
+justify-content: space-between;
+    margin: 0 auto;
+    width: 97%;
+
+}
+
+.headermiddle{
+    display: none;
+}
+
+.header-left{
+display: block;
+overflow: hidden;
+padding: 0 1.6rem;
+
+
+}
+.headerlogo{
+    // height: 100%;
+    width: 27%;
+    margin: auto 0;
+
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;justify-content: space-evenly;
+    row-gap: 14px;
+
+}
+.header-btn{
+    text-decoration: none;
+    display: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: black;
+    border-radius: 1.3rem;
+    text-transform: capitalize;
+    // background-color: rgb(230, 230, 230);
+transition: background 0.3s linear;
+    
+
+}
+
+.header-btn:hover{
+    background:#0000001c ;
+
+}
+.header-btn.menu-btn{
+    display: inline-block;
+    
+
+}
