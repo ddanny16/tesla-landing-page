@@ -207,13 +207,13 @@ body {
 }
 
 .hash {
-  color: red;
+  color: rgb(0, 153, 255);
 }
 
 .hash:hover {
   transform: scaleY(1.1);
-  color: lime;
-  transform: scaleX(1.1);
+  color: rgb(255, 51, 0);
+  transform: scaleY(1.1);
   -webkit-text-decoration: 5px solid underline;
           text-decoration: 5px solid underline;
   text-underline-offset: 20px;
