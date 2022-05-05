@@ -24,7 +24,9 @@ body {
 }
 
 .headermiddle {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-left {
@@ -195,6 +197,15 @@ footer ul li {
 @media screen and (min-width: 900px) {
   .button-container {
     width: 70%;
+  }
+
+  footer ul {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-nav-btn {
+    display: inline-block;
   }
 }
 .section1 {

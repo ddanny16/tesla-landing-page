@@ -19,5 +19,14 @@ $xl:1600px;
       width: 70%;
       
     }
-    footer
+    footer ul{
+        width: 70%;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .header-nav-btn{
+        display: inline-block;
+
+    }
 }
