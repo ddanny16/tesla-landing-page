@@ -50,4 +50,10 @@
 .fas {
   width: 3rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .fas {
+    display: flex;
+  }
 }/*# sourceMappingURL=nav.css.map */
