@@ -121,6 +121,11 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 700px) {
+  .fas {
+    display: flex;
+  }
+}
 .section1 {
   background-image: url(./img/model3.jpg);
   height: 100vh;
@@ -195,7 +200,7 @@ body {
 
 .section-title {
   text-align: center;
-  font-size: 40px;
+  font-size: 39px;
   font-weight: bold;
   display: inline;
 }
