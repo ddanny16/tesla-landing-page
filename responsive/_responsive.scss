@@ -1,0 +1,23 @@
+$sm:600px;
+$md:900px;
+$lg:1200px;
+$xl:1600px;
+
+@media screen and (min-width:600px) {
+    .button-container{
+        max-width: 26rem;
+    padding: 1rem;
+    flex-basis: 40%;
+    }
+    .buttons{
+        justify-content: space-evenly;
+
+    }
+}
+@media screen and (min-width:900px){
+    .button-container{
+      width: 70%;
+      
+    }
+    footer
+}

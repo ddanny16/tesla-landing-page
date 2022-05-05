@@ -78,6 +78,25 @@ body {
   background-color: aliceblue;
   overflow-y: scroll;
   transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+}
+
+.blur_overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+}
+
+.blur_overlay.is--active {
+  display: block;
+  transition: transform 0.5s;
 }
 
 .navigation.is--active {
@@ -124,6 +143,58 @@ body {
 @media screen and (max-width: 700px) {
   .fas {
     display: flex;
+  }
+}
+footer {
+  color: black;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+footer ul {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-decoration: none;
+  flex-direction: row;
+  gap: 0.5rem;
+  list-style-type: none;
+  color: black;
+}
+
+footer ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 1rem;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin-top: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 600px) {
+  .button-container {
+    max-width: 26rem;
+    padding: 1rem;
+    flex-basis: 40%;
+  }
+
+  .buttons {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 900px) {
+  .button-container {
+    width: 70%;
   }
 }
 .section1 {
@@ -232,7 +303,7 @@ body {
   justify-content: center;
   flex-basis: 20% 20%;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  gap: 10px;
 }
 .buttons .button-container {
   font-size: 1.2rem;

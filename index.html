@@ -7,10 +7,17 @@
         <link rel="stylesheet" href="/main.css">
         <link rel="stylesheet" href="/header.css">
         <link rel="stylesheet" href="/nav.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
         <title>Document</title>
     </head>
     <body>
+        <div class="blur_overlay"></div>
         <header class="header-class">
             <a href="" class="header-left">
                 <img src="./img/teslalogo-removebg-preview.png" alt="" class="headerlogo">
@@ -23,33 +30,77 @@
             </div>
         </header>
         <nav class="navigation">
-             <div class="close-btn-container">
+            <div class="close-btn-container">
                 <i class="fas fa-times" id="navigationclose"></i>
-                
-             </div>
-          <ul>
-            <li class="link-middle"><a class="nav-link" href="#">Model S</a></li>
-            <li class="link-middle"><a class="nav-link" href="#">Model 3</a></li>
-            <li class="link-middle"><a class="nav-link" href="#">Model X</a></li>
-            <li class="link-middle"><a class="nav-link" href="#">Model Y</a></li>
-            <li class="link-middle"><a class="nav-link" href="#">Solar Roof</a></li>
-            <li class="link-middle"><a class="nav-link" href="#">Solar Panel</a></li>
-            <li><a class="nav-link" href="#">Existing Inventory</a></li>
-            <li><a class="nav-link" href="#">Used Inventory</a></li>
-            <li><a class="nav-link" href="#">Trade-In</a></li>
-            <li><a class="nav-link" href="#">Test Drive</a></li>
-            <li><a class="nav-link" href="#">Insurance</a></li>
-            <li><a class="nav-link" href="#">CyberTRUCK</a></li>
-            <li><a class="nav-link" href="#">Semi</a></li>
-            <li><a class="nav-link" href="#">Charging</a></li>
-            <li><a class="nav-link" href="#">Powerwall</a></li>
-            <li><a class="nav-link" href="#">Commercial Energy</a></li>
-            <li><a class="nav-link" href="#">Utilities</a></li>
-            <li><a class="nav-link" href="#">Find Us</a></li>
-            <li><a class="nav-link" href="#">Support</a></li>
-            <li><a class="nav-link" href="#">Inventor Relations</a></li>
-            <li><a class="nav-link" href="#"><i class="fa-solid fa-globe"></i>United States <span>ENGLISH</span></a></li>
-          </ul>
+            </div>
+            <ul>
+                <li class="link-middle">
+                    <a class="nav-link" href="#">Model S</a>
+                </li>
+                <li class="link-middle">
+                    <a class="nav-link" href="#">Model 3</a>
+                </li>
+                <li class="link-middle">
+                    <a class="nav-link" href="#">Model X</a>
+                </li>
+                <li class="link-middle">
+                    <a class="nav-link" href="#">Model Y</a>
+                </li>
+                <li class="link-middle">
+                    <a class="nav-link" href="#">Solar Roof</a>
+                </li>
+                <li class="link-middle">
+                    <a class="nav-link" href="#">Solar Panel</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Existing Inventory</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Used Inventory</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Trade-In</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Test Drive</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Insurance</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">CyberTRUCK</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Semi</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Charging</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Powerwall</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Commercial Energy</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Utilities</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Find Us</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Inventor Relations</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-globe"></i>United States
+                        <span>ENGLISH</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
         <section id="fullpage">
             <section class="section1">
@@ -123,7 +174,8 @@
                 <h2 class="section-subtitle">
                     Produce Clean Energy From Your Roof
                 </a>
-           v         </h2>
+                v
+            </h2>
         </div>
         <div class="buttons">
             <a href="" class="button-container primary-btn">ORDER NOW</a>
@@ -143,6 +195,36 @@
         </a>
         <!-- <a href="" class="button-container secondary-btn">EXISTING INVENTORY</a> -->
     </div>
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="#">Tesla © 2022</a>
+            </li>
+            <li>
+                <a href="#">
+                    Privacy & Legal
+                </a>
+            </li>
+            <li>
+                <a href="#">Vehicle Recalls</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Careers</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Engage</a>
+            </li>
+            <li>
+                <a href="#">Locations</a>
+            </li>
+        </ul>
+    </footer>
 </section>
 </section>
 <script src="/index.js" async defer></script>

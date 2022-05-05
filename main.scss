@@ -14,6 +14,8 @@ body{
 @import "color/color";
 @import "header/header";
 @import "navbar/nav";
+@import "footer/_footer";
+@import "responsive/_responsive";
 
 
  .section1{
@@ -116,7 +118,8 @@ font-weight: 500;
 flex-basis: 20% 20%;
 // gap:2rem;
 justify-content: space-evenly;
-flex-wrap: wrap;
+// flex-wrap: wrap;
+gap: 10px;
 
 
 .button-container{
