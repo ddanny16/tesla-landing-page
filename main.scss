@@ -131,6 +131,10 @@ border-radius: 2rem;
 flex-basis: 80%;
 text-decoration: none;
 }
+.button-container:hover{
+        transform: scaleY(1.1);
+        box-shadow: 20px;
+}
 .primary-btn{
     background: rgba(23,26,32,0.8);
     color: white;

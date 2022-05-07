@@ -193,6 +193,14 @@ footer ul li {
   .buttons {
     justify-content: space-evenly;
   }
+
+  .header-middle {
+    display: none;
+  }
+
+  .header-nav-btn {
+    display: none;
+  }
 }
 @media screen and (min-width: 900px) {
   .button-container {
@@ -202,10 +210,53 @@ footer ul li {
   footer ul {
     width: 70%;
   }
+
+  .header-middle {
+    display: none;
+  }
+
+  .header-nav-btn {
+    display: none;
+  }
+
+  .link-min {
+    display: none;
+  }
 }
 @media screen and (min-width: 1200px) {
   .header-nav-btn {
     display: inline-block;
+  }
+
+  .middle-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    right: 6rem;
+    width: 47rem;
+    font-size: 14px;
+  }
+
+  .header-nav-btn {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s linear;
+    text-decoration: none;
+    border-radius: 1.2rem;
+    padding: 1rem;
+  }
+
+  .header-nav-btn:hover {
+    background: rgba(0, 0, 0, 0.1098039216);
+    height: 1rem;
+  }
+
+  .header-btn {
+    display: flex;
+    font-size: 1rem;
   }
 }
 .section1 {
@@ -323,6 +374,10 @@ footer ul li {
   border-radius: 2rem;
   flex-basis: 80%;
   text-decoration: none;
+}
+.buttons .button-container:hover {
+  transform: scaleY(1.1);
+  box-shadow: 20px;
 }
 .buttons .primary-btn {
   background: rgba(23, 26, 32, 0.8);

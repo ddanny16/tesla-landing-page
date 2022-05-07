@@ -14,3 +14,4 @@ done with header styling
 # repository
 
 # tesla..
+finished java script and scss
