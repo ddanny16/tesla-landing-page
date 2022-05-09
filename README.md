@@ -15,5 +15,5 @@ done with header styling
 
 # tesla..
 finished java script and scss
-media querry
+max width 600px
 cross checking responsiveness
