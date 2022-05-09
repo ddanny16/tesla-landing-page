@@ -12,7 +12,6 @@ done with header styling
 # java
 # tesla-landing-pagee
 # repository
-
 # tesla..
 finished java script and scss
 media querry 
