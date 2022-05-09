@@ -19,5 +19,5 @@ media querry
 min width none
 max width 600px
 max width 900px
-max width 1200
+max width 1200px
 cross checking responsiveness
