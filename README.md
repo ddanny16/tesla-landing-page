@@ -17,6 +17,7 @@ done with header styling
 finished java script and scss
 media querry 
 sm-600
+md-900
 min width none
 max width 600px
 max width 900px
