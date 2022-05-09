@@ -20,7 +20,7 @@ md-900
 lg-1200
 xl-1600
 min width : none
-max width 600px
+max width : 600px
 max width 900px
 max width 1200px
 cross checking responsiveness
