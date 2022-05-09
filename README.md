@@ -19,6 +19,7 @@ media querry
 sm-600
 md-900
 lg-1200
+xl-1600
 min width none
 max width 600px
 max width 900px
