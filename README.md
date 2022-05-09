@@ -18,4 +18,5 @@ finished java script and scss
 media querry
 max width 600px
 max width 900px
+max width 1200
 cross checking responsiveness
