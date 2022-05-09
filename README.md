@@ -15,4 +15,5 @@ done with header styling
 
 # tesla..
 finished java script and scss
+media querry
 cross checking responsiveness
