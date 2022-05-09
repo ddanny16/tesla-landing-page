@@ -17,4 +17,5 @@ done with header styling
 finished java script and scss
 media querry
 max width 600px
+max width 900px
 cross checking responsiveness
