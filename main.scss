@@ -7,16 +7,15 @@
 }
 body{
     max-width: 100vw;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
-@import "abstract/variables";
+
 @import "color/color";
 @import "header/header";
 @import "navbar/nav";
 @import "footer/_footer";
 @import "responsive/_responsive";
-
 
  .section1{
     background-image: url(./img/model3.jpg);
