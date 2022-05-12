@@ -170,7 +170,6 @@ footer ul {
   flex-direction: row;
   gap: 0.5rem;
   list-style-type: none;
-  color: black;
 }
 
 footer ul li a {
@@ -178,6 +177,12 @@ footer ul li a {
   list-style-type: none;
   color: black;
   font-size: 1rem;
+}
+
+footer ul li a:hover {
+  transition: 0.5s;
+  color: red;
+  transform: translateY(1.1);
 }
 
 footer ul li {
@@ -309,7 +314,7 @@ footer ul li {
 }
 
 .section6 {
-  background-image: url(./img/model3.jpg);
+  background-image: url(./img/Tesla-Solar-Panels-house-640x354.jpg);
   height: 100vh;
   width: 100%;
   background-attachment: fixed;
@@ -318,7 +323,7 @@ footer ul li {
 }
 
 .section7 {
-  background-image: url(./img/model3.jpg);
+  background-image: url(./img/Tesla-Wall-Connector-copy.jpg);
   background-attachment: fixed;
   height: 100vh;
   width: 100%;

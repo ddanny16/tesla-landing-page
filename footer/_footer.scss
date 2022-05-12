@@ -18,7 +18,7 @@ footer ul{
     flex-direction: row;
     gap: 0.5rem;
     list-style-type: none;
-    color: black;
+    // color: rgb(228, 5, 5);
 }
 footer ul li a{
 text-decoration: none;
@@ -26,6 +26,11 @@ list-style-type: none;
 color: black;
 font-size: 1rem;
 
+}
+footer ul li a:hover{
+    transition: 0.5s;
+    color:red;
+    transform: translateY(1.1);
 }
 footer ul li{
     list-style-type: none;
