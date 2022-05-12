@@ -24,3 +24,6 @@ max width : 600px
 max width : 900px
 max width : 1200px
 cross checking responsiveness
+link header to section
+hedaer id
+
