@@ -350,6 +350,7 @@ footer ul li {
 
 .hash {
   color: rgb(0, 153, 255);
+  transition: 2s;
 }
 
 .hash:hover {
@@ -359,6 +360,7 @@ footer ul li {
   -webkit-text-decoration: 5px solid underline;
           text-decoration: 5px solid underline;
   text-underline-offset: 20px;
+  transition: 3s;
 }
 
 .buttons {
@@ -387,8 +389,19 @@ footer ul li {
   background: rgba(23, 26, 32, 0.8);
   color: white;
 }
+.buttons .primary-btn:hover {
+  background: rgba(255, 255, 255, 0.65);
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
 .buttons .secondary-btn {
   background: rgba(255, 255, 255, 0.65);
   font-weight: 600;
   color: var(--primary-color);
+}
+.buttons .secondary-btn:hover {
+  transition: 0.3s;
+  background: rgba(23, 26, 32, 0.8);
+  color: white;
 }/*# sourceMappingURL=main.css.map */

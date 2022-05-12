@@ -97,6 +97,7 @@ font-weight: 500;
 }
 .hash{
     color: rgb(0, 153, 255);
+    transition: 2s;
    
     
 }
@@ -106,6 +107,7 @@ font-weight: 500;
     transform: scaleY(1.1);
     text-decoration:  5px solid underline;
     text-underline-offset: 20px;
+    transition: 3s;
 }
 .buttons{
    text-align: center;
@@ -139,9 +141,22 @@ text-decoration: none;
     color: white;
 
 }
+.primary-btn:hover{
+    background: rgba(255,255,255,0.65);
+    font-weight: 600;
+       color: var(--primary-color);
+       transition: 0.3s;
+}
+
 .secondary-btn{
     background: rgba(255,255,255,0.65);
  font-weight: 600;
     color: var(--primary-color);
 }
+.secondary-btn:hover{
+    transition: 0.3s;
+    background: rgba(23,26,32,0.8);
+    color: white;
+}
+
 }
